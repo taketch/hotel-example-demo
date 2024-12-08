@@ -1,5 +1,5 @@
 # テスト自動化の練習サイトの実装デモ
-Hotel Planisphere(https://hotel-example-site.takeyaqa.dev/)
+[Hotel Planisphere](https://hotel-example-site.takeyaqa.dev/)
 
 ## 環境
 - node v22.11.0
