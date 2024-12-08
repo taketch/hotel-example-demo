@@ -4,8 +4,8 @@ export class HomePage {
     constructor(page) {
         this.page = page;
         this.plansLink = 'text=宿泊予約';
-        this.registerLink = 'text=会員登録';
-        this.signupLink = 'text=ログイン';
+        this.signupLink = 'text=会員登録';
+        this.loginLink = 'text=ログイン';
         this.mypageLink = 'text=マイページ';
     }
 
@@ -20,13 +20,13 @@ export class HomePage {
     }
 
     // 会員登録
-    async goToRegisterPage() {
-        await this.page.click(this.registerLink);
+    async goToSignupPage() {
+        await this.page.click(this.signupLink);
     }
 
     // ログイン
-    async goToSignupPage() {
-        await this.page.click(this.signupLink);
+    async goToLoginPage() {
+        await this.page.click(this.loginLink);
     }
 
     // マイページ
