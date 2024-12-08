@@ -52,11 +52,9 @@ export class Mypage {
 
     // ボタン操作
     async logout() {
-        await this.logoutButton.waitFor();
         await this.page.click(this.logoutButton);
     }
     async withdrawal() {
-        await this.withdrawalButton.waitFor();
         await this.page.click(this.withdrawalButton);
     }
 }
