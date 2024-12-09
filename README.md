@@ -12,3 +12,6 @@
 
 ### login.spec.js
 - ログインができること
+
+## Actions対象
+- src/ に対するPull Request
